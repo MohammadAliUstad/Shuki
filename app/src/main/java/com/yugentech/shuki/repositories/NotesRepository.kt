@@ -2,6 +2,7 @@ package com.yugentech.shuki.repositories
 
 import android.app.Application
 import android.content.Context
+import androidx.core.content.edit
 import com.yugentech.shuki.data.notes.Note
 import com.yugentech.shuki.data.notes.NotesDao
 import com.yugentech.shuki.data.utils.DummyData
@@ -19,7 +20,7 @@ class NotesRepository(
             DummyData.dummyNotes.forEach { note ->
                 notesDao.addNote(note)
             }
-            prefs.edit().putBoolean(key, true).apply()
+            prefs.edit { putBoolean(key, true) }
         }
     }
 

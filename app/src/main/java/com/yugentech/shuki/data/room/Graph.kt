@@ -10,7 +10,11 @@ object Graph {
     private lateinit var application: Application
 
     fun provide(app: Application) {
-        database = Room.databaseBuilder(app, ShukiDatabase::class.java, "Shuki.db").build()
+        database = Room.databaseBuilder(
+            app,
+            ShukiDatabase::class.java,
+            "Shuki.db"
+        ).build()
         application = app
     }
 

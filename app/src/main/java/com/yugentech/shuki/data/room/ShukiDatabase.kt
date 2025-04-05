@@ -13,6 +13,7 @@ import com.yugentech.shuki.data.tasks.TasksDao
         Task::class
     ], version = 1
 )
+
 abstract class ShukiDatabase : RoomDatabase() {
     abstract fun notesDao(): NotesDao
     abstract fun tasksDao(): TasksDao

@@ -14,7 +14,6 @@ val ProductSansFontFamily = FontFamily(
 )
 
 val AppTypography = Typography(
-    // Display styles
     displayLarge = TextStyle(
         fontFamily = ProductSansFontFamily,
         fontWeight = FontWeight.Bold,
@@ -37,7 +36,6 @@ val AppTypography = Typography(
         letterSpacing = 0.sp
     ),
 
-    // Headline styles
     headlineLarge = TextStyle(
         fontFamily = ProductSansFontFamily,
         fontWeight = FontWeight.Bold,
@@ -60,7 +58,6 @@ val AppTypography = Typography(
         letterSpacing = 0.sp
     ),
 
-    // Title styles
     titleLarge = TextStyle(
         fontFamily = ProductSansFontFamily,
         fontWeight = FontWeight.Bold,
@@ -83,7 +80,6 @@ val AppTypography = Typography(
         letterSpacing = 0.1.sp
     ),
 
-    // Body styles
     bodyLarge = TextStyle(
         fontFamily = ProductSansFontFamily,
         fontWeight = FontWeight.Normal,
@@ -106,7 +102,6 @@ val AppTypography = Typography(
         letterSpacing = 0.4.sp
     ),
 
-    // Label styles
     labelLarge = TextStyle(
         fontFamily = ProductSansFontFamily,
         fontWeight = FontWeight.Medium,
