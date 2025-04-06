@@ -1,6 +1,6 @@
 [versions]
 accompanistNavigationAnimation = "0.32.0"
-agp = "8.9.0"
+agp = "8.9.1"
 animation = "1.7.6"
 coreSplashscreen = "1.0.1"
 kotlin = "2.0.0"
